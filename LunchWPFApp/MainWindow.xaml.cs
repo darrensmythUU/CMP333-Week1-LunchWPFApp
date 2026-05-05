@@ -47,6 +47,10 @@ namespace LunchWPFApp
             {
                 MessageBox.Show("I am going to have a burger for lunch today");
             }
+            else
+            {
+                MessageBox.Show("No lunch option has been selected");
+            }
         }
     }
 }

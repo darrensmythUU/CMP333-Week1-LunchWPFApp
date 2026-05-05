@@ -7,14 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="101*"/>
+            <RowDefinition Height="333*"/>
+        </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Center" Margin="0,21,0,0" TextWrapping="Wrap" Text="What would you like to eat for lunch?" VerticalAlignment="Top"/>
-        <RadioButton x:Name="wrapRadioButton" Content="Wrap" HorizontalAlignment="Left" Margin="240,82,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="paniniRadioButton" Content="Panini" HorizontalAlignment="Left" Margin="436,82,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="burritoRadioButton" Content="Burrito" HorizontalAlignment="Left" Margin="307,82,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="tacoRadioButton" Content="Taco" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="burgerRadioButton" Content="Burger" HorizontalAlignment="Left" Margin="500,82,0,0" VerticalAlignment="Top"/>
-        <GroupBox Header="GroupBox" Margin="215,63,215,318"/>
-        <Button Content="Select" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <RadioButton x:Name="wrapRadioButton" Content="Wrap" HorizontalAlignment="Left" Margin="244,59,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="paniniRadioButton" Content="Panini" HorizontalAlignment="Left" Margin="440,59,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="burritoRadioButton" Content="Burrito" HorizontalAlignment="Left" Margin="311,59,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="tacoRadioButton" Content="Taco" HorizontalAlignment="Left" Margin="382,59,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="burgerRadioButton" Content="Burger" HorizontalAlignment="Left" Margin="504,59,0,0" VerticalAlignment="Top"/>
+        <Button Content="Select" HorizontalAlignment="Left" Margin="389,101,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.RowSpan="2"/>
+        <GroupBox Header="Lunch Options" Margin="185,37,178,10"/>
 
     </Grid>
 </Window>
