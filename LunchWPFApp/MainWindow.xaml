@@ -14,6 +14,7 @@
         <RadioButton x:Name="tacoRadioButton" Content="Taco" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="burgerRadioButton" Content="Burger" HorizontalAlignment="Left" Margin="500,82,0,0" VerticalAlignment="Top"/>
         <GroupBox Header="GroupBox" Margin="215,63,215,318"/>
+        <Button Content="Select" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
